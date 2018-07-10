@@ -10,7 +10,7 @@ module.exports = {
             message: err
           })    
         } else {  
-          res.json(rows);  
+          res.json(rows[0]);  
         }  
       });  
     } else {  
