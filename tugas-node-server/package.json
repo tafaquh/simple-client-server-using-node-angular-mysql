@@ -1,0 +1,17 @@
+{
+  "name": "tugas-node",
+  "version": "1.0.0",
+  "description": "tugas WTIT 3 D4 IT B 2110151035 & 2110151049",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "tafaquh",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "cors": "^2.8.4",
+    "express": "^4.16.3",
+    "mysql": "^2.15.0"
+  }
+}
