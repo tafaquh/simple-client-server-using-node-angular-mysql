@@ -35,6 +35,8 @@ module.exports = {
           message: err
         })  
       } else {  
+        console.log('ini header req: ',req.headers)
+        console.log('ini body req: ', req.body)
         res.json({
           status: 'Success adding product!',
           data: req.body
