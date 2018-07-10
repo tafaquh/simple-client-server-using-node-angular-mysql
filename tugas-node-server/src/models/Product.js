@@ -14,7 +14,7 @@ var productDB = {
       return db.query("delete from products where productid=?", [productid], callback);  
   },  
   updateProduct: function(Product, callback) {  
-      return db.query("update products set name=?,stock=?,price=?,photo=? where productid=?", [Product.name, Product.stock, Product.price, Product.photo, Product.productid], callback);  
+      return db.query("update products set name=?,stock=?,price=?,photo=?,categoryid=? where productid=?", [Product.name, Product.stock, Product.price, Product.photo, Product.categoryid, Product.productid], callback);  
   }  
 };
 module.exports = productDB;
